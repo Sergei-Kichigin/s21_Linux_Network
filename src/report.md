@@ -480,10 +480,10 @@ subnet 10.20.0.0 netmask 255.255.255.192
 ##### Запросить с ws21 обновление ip адреса
 
 - Запрашиваю обновление ip адреса:
-	- `sudo dhclient -r` освобождаем текущий адрес \
+	- `sudo dhclient -r` освобождаем текущий адрес: \
 	![Free ip](img/part6_ws21_before_received_dhcp.png) \
 	*Free ip*
-	- `sudo dhclient` получаем новый адрес
+	- `sudo dhclient` получаем новый адрес: \
 	![received ip](img/part6_ws21_received_dhcp.png) \
 	*Received ip*
 
